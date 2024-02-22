@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="background-image pt-3 pb-3 d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="shadow-lg text-center top-bg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <input type="text" id="input-value" class="input-element" placeholder="Enter Your Location">
+                            <button class="button-ele" id="enter">Enter</button>
+                        </div>
+                        <h2 class="location" id="place"></h2>
+                        <h6 class="location">CLOUDS</h6>
+                        <h6 class="location" id="cloud">FEW CLOUDS</h6>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="cloud-image bi bi-cloud-sun-fill" viewBox="0 0 16 16">
+                            <path d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5h-.027z" />
+                            <path d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0v-1zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708l.707-.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708l-.708-.707zm1.734 3.374a2 2 0 1 1 3.296 2.198c.199.281.372.582.516.898a3 3 0 1 0-4.84-3.225c.352.011.696.055 1.028.129zm4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377zM14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z" />
+                        </svg>
+                        <h1 class="temperature" id="temperature"><span class="temp-span">cen</span></h1>
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <h6 class="location">Min</h6>
+                                <h6 class="temperature1" id="minimum"><span class="degree">cen</span></h6>
+                            </div>
+                            <div>
+                                <h6 class="location">Max</h6>
+                                <h6 class="temperature1" id="maximum"><span class="degree">cen</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 mt-5">
+                    <h1 class="location1">The Weather is here wish you are beautiful</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

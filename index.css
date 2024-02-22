@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.background-image {
+    background-image: url("https://mcdn.wallpapersafari.com/medium/31/46/GgyrPf.jpg");
+    letter-spacing: 1px;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.input-element {
+    padding-left: 10px;
+    width: 70%;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: "Bree Serif";
+    color: white;
+    font-weight: bolder;
+    border-color: yellow;
+    letter-spacing: 1px;
+}
+
+@media (min-width:768px) {
+    .input-element {
+        font-size: 30px;
+    }
+}
+
+.button-ele {
+    width: 30%;
+    margin-left: 5px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-family: "Bree Serif";
+}
+
+@media (min-width:768px) {
+    .button-ele {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:768px) {
+    .button-ele {
+        width: 30%;
+    }
+}
+
+.temperature {
+    font-weight: bold;
+    color: yellow;
+    font-size: 50px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (min-width:768px) {
+    .temperature {
+        font-size: 70px;
+    }
+}
+
+.temperature1 {
+    font-weight: bold;
+    color: yellow;
+    font-size: 30px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (min-width:768px) {
+    .temperature1 {
+        font-size: 50px;
+    }
+}
+
+.location {
+    font-weight: 700;
+    color: white;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 10px;
+}
+
+.location1 {
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: white;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .location1 {
+        margin-top: 30px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+.cloud-image {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.temp-span {
+    color: red;
+    font-size: 30px;
+    font-family: "Roboto";
+}
+
+.degree {
+    font-size: 20px;
+    font-weight: 300;
+    color: red;
+    font-family: "Bree Serif";
+    text-align: center;
+    margin-top: 10px;
+}
+
+.top-bg {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+}
